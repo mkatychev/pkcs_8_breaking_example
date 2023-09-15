@@ -8,6 +8,6 @@ edition = "2021"
 [dependencies]
 ed25519-zebra = "4.0.3"
 rand = "0.8.5"
-pkcs8 = { version = "0.7.6", features = ["encryption", "std"]}
+pkcs8_07 = { package = "pkcs8", version = "0.7.6", features = ["encryption", "std"]}
+pkcs8 = { version = "0.10.2", features = ["encryption", "std"]}
 zeroize = "1.6.0"
-sha2 = "0.10.7"
