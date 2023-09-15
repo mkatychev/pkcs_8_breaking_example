@@ -1,4 +1,4 @@
-use rust_crypto_example::*;
+use pkcs_8_breaking_example::*;
 
 fn main() {
     let keypair = Keypair::decrypt_from_file("./pk.der", b"password").unwrap();

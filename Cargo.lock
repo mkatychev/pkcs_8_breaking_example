@@ -434,6 +434,17 @@ dependencies = [
 ]
 
 [[package]]
+name = "pkcs_8_breaking_example"
+version = "0.1.0"
+dependencies = [
+ "ed25519-zebra",
+ "pkcs8 0.10.2",
+ "pkcs8 0.7.6",
+ "rand",
+ "zeroize",
+]
+
+[[package]]
 name = "platforms"
 version = "3.1.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -491,17 +502,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "ec0be4795e2f6a28069bec0b5ff3e2ac9bafc99e6a9a7dc3547996c5c816922c"
 dependencies = [
  "getrandom",
-]
-
-[[package]]
-name = "rust_crypto_example"
-version = "0.1.0"
-dependencies = [
- "ed25519-zebra",
- "pkcs8 0.10.2",
- "pkcs8 0.7.6",
- "rand",
- "zeroize",
 ]
 
 [[package]]
