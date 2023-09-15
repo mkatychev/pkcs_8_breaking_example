@@ -1,0 +1,13 @@
+[package]
+name = "rust_crypto_example"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ed25519-zebra = "4.0.3"
+rand = "0.8.5"
+pkcs8 = { version = "0.7.6", features = ["encryption", "std"]}
+zeroize = "1.6.0"
+sha2 = "0.10.7"
