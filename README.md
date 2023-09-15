@@ -11,6 +11,10 @@ Public Key: [e1, 82, 21, 31, 80, c0, fb, 3e, 3e, 8f, 60, 6a, dd, 63, 7a, 33, 84,
 $ cargo run -q --example=decrypt_key
 thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Error { kind: Noncanonical { tag: Tag(0xa1: CONTEXT-SPECIFIC [1] (constructed)) }, position: None }', examples/decrypt_key.rs:4:71
 note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+$ cargo run -q --example=decrypt_key_inlined
+thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Error { kind: Noncanonical { tag: Tag(0xa1: CONTEXT-SPECIFIC [1] (constructed)) }, position: None }', examples/decrypt_key_inlined.rs:11:62
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
 ```
 
 
